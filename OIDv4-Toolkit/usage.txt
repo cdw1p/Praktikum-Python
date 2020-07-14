@@ -1,0 +1,9 @@
+# Preparing Dataset
+-- Install Tools
+~$ git clone https://github.com/EscVM/OIDv4_ToolKit.git
+~$ pip install -r OIDv4_ToolKit/requirements.txt
+~$ cd OIDv4_ToolKit
+
+-- Download Dataset
+~$ python main.py downloader --classes Car Bus Truck --type_csv train --limit 2000
+// Note : Car Bus Truck is a category name
